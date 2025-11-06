@@ -1,9 +1,12 @@
+import java.util.Random;
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-         System.out.println("Piedra papel y tijera");
+        System.out.println("Piedra papel y tijera");
         Scanner sc = new Scanner(System.in);
         Random random = new Random(); //jugada aleatoria ordenador
 
@@ -92,9 +95,9 @@ public class Main {
 
         //Resultados
 
-        System.out.println("Victoria" + victorias);
-        System.out.println("Derrotas" + derrotas);
-        System.out.println("Empates" + empates);
+        System.out.println("🏆Victoria🏆: " + victorias);
+        System.out.println("☠️Derrotas☠️: " + derrotas);
+        System.out.println("Empates " + empates);
 
     }// Fin
 }
