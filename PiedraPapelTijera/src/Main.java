@@ -92,7 +92,9 @@ public class Main {
 
         //Resultados
 
-        System.out.println("");
+        System.out.println("Victoria" + victorias);
+        System.out.println("Derrotas" + derrotas);
+        System.out.println("Empates" + empates);
 
     }// Fin
 }
